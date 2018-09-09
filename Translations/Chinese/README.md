@@ -54,6 +54,11 @@
 // 2. 让浏览器知道元素的合法性（判断哪些写法是合法的，哪些不是，当然，浏览器自身也有容错设计）
 ```
 * 浏览器标准模式 (standards mode) 、几乎标准模式（almost standards mode）和怪异模式 (quirks mode) 之间的区别是什么？
+```js
+/* 
+目前浏览器的排版引擎有三种模式：怪异模式（Quirks mode）、接近标准模式（Almost standards mode）、以及标准模式（Standards mode）。在怪异模式下，排版会模拟 Navigator 4 与 Internet Explorer 5 的非标准行为。为了支持在网络标准被广泛采用前，就已经建好的网站，这么做是必要的。在标准模式下，行为即（但愿如此）由 HTML 与 CSS 的规范描述的行为。在接近标准模式下，只有少数的怪异行为被实现。
+*/
+```
 * HTML 和 XHTML 有什么区别？
 * 如果页面使用 'application/xhtml+xml' 会有什么问题吗？
 * 如果网页内容需要支持多语言，你会怎么做？
