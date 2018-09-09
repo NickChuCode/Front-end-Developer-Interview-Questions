@@ -17,7 +17,9 @@ This file contains a number of front-end interview questions that can be used wh
   1. [Coding Questions](questions/coding-questions.md)
   1. [Fun Questions](questions/fun-questions.md)
   
-## 修改
+## 中文版本
+
+  1. [中文版本-问题](Translations/Chinese/README.md)
 
 ## Getting Involved
 
