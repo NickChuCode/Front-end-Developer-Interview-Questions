@@ -49,6 +49,10 @@
 #### <a name='html-questions'>HTML 相关问题：</a>
 
 * `doctype`(文档类型) 的作用是什么？
+```js
+// 1. 让浏览器能以正确的标准模式渲染（HTML属于SGML, XHTML属于XML，HTML5不属于SGML或XML）
+// 2. 让浏览器知道元素的合法性（判断哪些写法是合法的，哪些不是，当然，浏览器自身也有容错设计）
+```
 * 浏览器标准模式 (standards mode) 、几乎标准模式（almost standards mode）和怪异模式 (quirks mode) 之间的区别是什么？
 * HTML 和 XHTML 有什么区别？
 * 如果页面使用 'application/xhtml+xml' 会有什么问题吗？
